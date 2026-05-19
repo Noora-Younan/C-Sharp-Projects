@@ -22,7 +22,7 @@ public class Employee : IQuittable
     public void Quit()
     {
         // 🎬 Dramatic exit message — this is where the employee "quits"
-        Console.WriteLine($"{FirstName} {LastName} (ID: {Id}) has officially quit the company. 🎤 Drop!");
+        Console.WriteLine($"{FirstName} {LastName} (ID: {Id}) has officially quit. MIC Drop!");
     }
 }
 
@@ -33,9 +33,9 @@ class Program
         // 🏗️ Creating a new Employee object — our star of the show
         Employee emp = new Employee
         {
-            Id = 202,
-            FirstName = "Kawthar",
-            LastName = "Rivera"
+            Id = 102,
+            FirstName = "Noora",
+            LastName = "Younan"
         };
 
         // 🎭 POLYMORPHISM MAGIC:
